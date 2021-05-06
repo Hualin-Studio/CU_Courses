@@ -1,0 +1,6 @@
+<!--pages/courses/courses.wxml-->
+<view class="course-list">
+<block wx:for="{{courseList}}" wx:key="{{item.id}}">
+  <view class="id" bindtap="goToCSDetail" data-id="{{item.id}}">{{item.id}}</view>
+</block>
+</view>

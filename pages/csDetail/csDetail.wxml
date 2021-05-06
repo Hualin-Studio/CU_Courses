@@ -1,0 +1,10 @@
+<!--pages/csDetail/csDetail.wxml-->
+<!--pages/courses/courses.wxml-->
+<view class="container">
+    <view class="title">{{csDetail.title}}</view>
+    <view class="credit">{{csDetail.credits}} credits</view>
+    <view class="content">
+      <rich-text>{{csDetail.content}}</rich-text>
+    </view>
+    <view class="notes">{{csDetail.notes}}</view>
+</view>

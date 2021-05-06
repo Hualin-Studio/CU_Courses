@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/courses/courses",
+    "pages/csDetail/csDetail"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e3360b",
+    "navigationBarTitleText": "CU CS Courses",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  },
+  "tabBar":{
+    "color":"#000000",
+    "selectedColor":"#000000",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"Home",
+      "iconPath":"images/index.png",
+      "selectedIconPath":"images/index-active.png"
+    },
+    {
+      "pagePath":"pages/courses/courses",
+      "text":"Courses",
+      "iconPath":"images/account.png",
+      "selectedIconPath":"images/account-active.png"
+    }
+    ]
+  }
+}
